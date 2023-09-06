@@ -5,6 +5,8 @@ from numpy import loadtxt
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense 
 ```
+In addition, "pima-indians-diabetes.csv" dataset was used to create the model.
+
 ------------------
 ## What Is Keras Library Used For?
 Keras is a deep learning library for Python that provides a convenient way to define and train almost any deep learning model. Keras allows us to easily build and train a deep learning model. That's why Keras is one of the recommended libraries for deep learning beginners.
@@ -21,6 +23,8 @@ from numpy import loadtxt
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense 
 ```
+Ayrıca modeli oluşturmak için "pima-indians-diabetes.csv" veriseti kullanılmıştır.
+
 -----------------------
 ## Keras Kütüphanesi Ne İçin Kullanılır?
 Keras, neredeyse her tür derin öğrenme modelini tanımlamak ve eğitmek için uygun bir yol sağlayan Python için bir derin öğrenme kütüphanesidir. İçerdiği çok fazla işlevsel fonksiyon sayesinde Keras kolayca bir derin öğrenme modeli oluşturmamızı ve onu eğitmemizi sağlıyor. Bu nedenle derin öğrenmeye yeni başlayanlara önerilen kütüphanelerin başında Keras geliyor.
