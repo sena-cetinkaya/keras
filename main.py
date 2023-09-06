@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Dense
 data = loadtxt('pima-indians-diabetes.csv', delimiter=',')
 
 # Getting the input (X) and output (y) values.
-X = data[:,0:8]
+x = data[:,0:8]
 y = data[:,8]
 
 # Creating a 3-layer keras model.
@@ -21,10 +21,10 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 
 # Fit the keras model on the dataset.
-model.fit(X, y, epochs=150, batch_size=10)
+model.fit(x, y, epochs=150, batch_size=10)
 
 # Learning the accuracy of the keras model.
-_, accuracy = model.evaluate(X, y)
+_, accuracy = model.evaluate(x, y)
 print('Accuracy: %.2f' % (accuracy*100))
 
 
